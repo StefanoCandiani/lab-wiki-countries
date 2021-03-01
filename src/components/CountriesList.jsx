@@ -11,7 +11,7 @@ const CountriesList = () => {
                     TheList.map((el) => {
                         let location = `/${el.cca3}`
                         return(
-                            <Link className="list-group-item list-group-item-action" exact to={location}>{el.flag} {el.name.official}</Link>
+                            <Link className="list-group-item list-group-item-action" exact to={location}>{el.flag} {el.name.common}</Link>
                         )
                     })            
                 }                  
