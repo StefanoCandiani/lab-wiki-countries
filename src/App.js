@@ -11,7 +11,7 @@ function App() {
 
       <div className="container">
         <div className="row">
-          <CountriesList />
+          <CountriesList /> 
             <CountryDetails />
           <Switch>
             <Route exact path="/:cca3" component={CountryDetails} />
